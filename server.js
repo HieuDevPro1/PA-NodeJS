@@ -10,7 +10,7 @@ dotenv.config();
 const port = process.env.PORT || 6789;
 
 var corsOptions = {
-  origin: "http://localhost:4200",
+  origin: "https://proadm.vercel.app/",
   optionsSuccessStatus: 200,
 };
 
